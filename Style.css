@@ -1,0 +1,117 @@
+*{
+  padding: 0px;
+  text-align: center;
+  overflow: auto;
+}
+#fundo{
+    z-index: -1;
+    left: 0;
+    top:0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+#title{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 34px;
+}
+.city{
+  border-radius: 5px;
+  margin-right: 0px;
+}
+.button{
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 0px;
+  background-color: #0099ff;
+}
+.topo{
+  /*NOTHING TO-DO*/
+}
+.diaria{
+  width:35%;
+  height: auto;
+  display: inline-block;
+  overflow:  auto;
+  margin-top: 50px;
+}
+.diariaL{
+    width:50%;
+    height: auto;
+    display: grid;
+    text-align: center;
+    z-index: 1;
+    float:left;
+}
+.diariaR{
+  width: 35%;
+  height: auto;
+  float: right;
+  text-align: center;
+}
+.diariaR img{
+  width: 100px;
+  height: 100px;
+}
+#cityName{
+  font-family: 'Cuprum', sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+#temp{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 34px;
+  text-align: center;
+}
+.lblDiaria{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.tst label{
+  text-align: center;
+}
+.week{
+  margin-top: 50px;
+  width: auto;
+  height: 200px;
+  text-align: center;
+  display: block;
+  overflow: visible;
+}
+.week div{
+  font-family: 'Rajdhani', sans-serif;
+  display: inline-block;
+  padding: 10px;
+}
+/*MOBILE*/
+@media screen and (max-width: 576px) {
+
+.diaria{
+  display: grid;
+  width: 80%;
+  height: auto;
+  margin: 2px auto;
+  padding-top: 10px;
+}
+.diariaL{
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 0px auto;
+}
+.diariaR{
+  width: auto;
+  height: auto;
+}
+.week div{
+  display: inline-block;
+  width: 105px;
+
+}
+
+
+}

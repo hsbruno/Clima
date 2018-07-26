@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Clima</title>
+    <!-- Jquery / AJAX / -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- javascript /  CSS -->
+    <script type="text/javascript" src="clima.js"></script>
+    <link href="Style.css" rel="stylesheet">
+    <!--FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Chonburi|Cuprum|Rajdhani" rel="stylesheet">
+ <body>
+<div>
+  <img  id='fundo' src="img/fundo.jpg!d">
+    <!-- Inicio  -->
+   	<div id="Principal">
+      <div class="topo">
+      <!-- Titulo -->
+   		<h3 class="title" id="title">Weather Forecast</h3>
+   				<input type="text" id="city" class="city" placeholder="Choose a city">
+   				   <button type="button" class="button">Buscar</button>
+      </div>
+            <!--  exibição -->
+   				  <div class="diaria">
+              <!--Exibe nome da cidade Temperatura e imagen do clima-->
+              <div class="diariaR">
+                <label id="cityName"></label><BR>
+                  <label id="temp"></label><BR>
+                    <img class="img">
+              </div>
+              <!-- infos sobre o dia -->
+              <div class="diariaL">
+                <label class="lblDiaria" id="day"></label><BR>
+                  <label class="lblDiaria" id="tempTxt"></label><BR>
+                    <label class="lblDiaria" id="sunrise"></label><BR>
+                      <label class="lblDiaria" id="sunset"></label><BR>
+              </div>
+            </div>
+            <!-- Exibição semanal -->
+            <div class="week">
+              <div id="teste0"></div>
+              <div id="teste1"></div>
+              <div id="teste2"></div>
+              <div id="teste3"></div>
+              <div id="teste4"></div>
+              <div id="teste5"></div>
+              <div id="teste6"></div>
+            </div>
+   	    </div>
+</div>
+ </body>
+
+ </html>
